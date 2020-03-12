@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class InterpolationDemoComponent implements OnInit {
 
 
-  product ={
+  product = {
     title: 'Mobile',
-    price:7000
+    price: 7000
   }
   constructor() { }
 
