@@ -8,6 +8,7 @@ import { EventbindingComponent } from './01componentanddatabinding/eventbinding/
 import { TwowaydatabindingComponent } from './01componentanddatabinding/twowaydatabinding/twowaydatabinding.component';
 import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabinding/twowaydatabindingwithoutng-model/twowaydatabindingwithoutng-model.component';
 
+
 const routes: Routes = [
   { path: 'interpolation', component: InterpolationDemoComponent },
   { path : 'propertybinding', component : PropertybindingDemoComponent},

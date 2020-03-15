@@ -16,6 +16,7 @@ import { EventbindingComponent } from './01componentanddatabinding/eventbinding/
 import { TwowaydatabindingComponent } from './01componentanddatabinding/twowaydatabinding/twowaydatabinding.component';
 import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabinding/twowaydatabindingwithoutng-model/twowaydatabindingwithoutng-model.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,9 +26,11 @@ import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabi
     HomeComponent,
     PageHeaderComponent,
     PageFooterComponent,
+    twowaydatabinding,
     EventbindingComponent,
     TwowaydatabindingComponent,
-    TwowaydatabindingwithoutngModelComponent
+    TwowaydatabindingwithoutngModelComponent,
+    EventbindingComponent
   ],
   imports: [
     BrowserModule,
