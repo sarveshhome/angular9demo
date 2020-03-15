@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { PageHeaderComponent } from './core/page-header/page-header.component';
 import { PageFooterComponent } from './core/page-footer/page-footer.component';
 import { EventbindingComponent } from './01componentanddatabinding/eventbinding/eventbinding.component';
+import { TwowaydatabindingComponent } from './01componentanddatabinding/twowaydatabinding/twowaydatabinding.component';
+import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabinding/twowaydatabindingwithoutng-model/twowaydatabindingwithoutng-model.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +25,14 @@ import { EventbindingComponent } from './01componentanddatabinding/eventbinding/
     HomeComponent,
     PageHeaderComponent,
     PageFooterComponent,
-    EventbindingComponent
+    EventbindingComponent,
+    TwowaydatabindingComponent,
+    TwowaydatabindingwithoutngModelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
