@@ -15,6 +15,7 @@ import { PageFooterComponent } from './core/page-footer/page-footer.component';
 import { EventbindingComponent } from './01componentanddatabinding/eventbinding/eventbinding.component';
 import { TwowaydatabindingComponent } from './01componentanddatabinding/twowaydatabinding/twowaydatabinding.component';
 import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabinding/twowaydatabindingwithoutng-model/twowaydatabindingwithoutng-model.component';
+import { InputDecoratorComponent } from './03ComponetsCommunications/input-decorator/input-decorator.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabi
     PageFooterComponent,
     EventbindingComponent,
     TwowaydatabindingComponent,
-    TwowaydatabindingwithoutngModelComponent
+    TwowaydatabindingwithoutngModelComponent,
+    InputDecoratorComponent
   ],
   imports: [
     BrowserModule,
