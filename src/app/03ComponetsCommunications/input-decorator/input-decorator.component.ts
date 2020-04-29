@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputDecoratorComponent implements OnInit {
 
+  message = 'i am parent';
+  childmessage ='I am passed from Parent to child component';
+  
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
