@@ -7,14 +7,20 @@ import { HomeComponent } from './home/home.component';
 import { EventbindingComponent } from './01componentanddatabinding/eventbinding/eventbinding.component';
 import { TwowaydatabindingComponent } from './01componentanddatabinding/twowaydatabinding/twowaydatabinding.component';
 import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabinding/twowaydatabindingwithoutng-model/twowaydatabindingwithoutng-model.component';
-
-
+import { InputDecoratorComponent } from './03ComponetsCommunications/input-decorator/input-decorator.component'
+import { NgifstructuraldirectiveComponent } from './04Directive/ngifstructuraldirective/ngifstructuraldirective.component';
+import { NgforstructuraldirectiveComponent } from './04Directive/ngforstructuraldirective/ngforstructuraldirective.component';
+import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
 const routes: Routes = [
   { path: 'interpolation', component: InterpolationDemoComponent },
   { path : 'propertybinding', component : PropertybindingDemoComponent},
   { path : 'eventbinding', component: EventbindingComponent},
   { path : 'twowaydatabinding', component : TwowaydatabindingComponent},
   { path : 'twowaydatabindingwithoutNgmodel', component: TwowaydatabindingwithoutngModelComponent },
+  { path : 'inputDecorator', component: InputDecoratorComponent},
+  { path : 'ngifStdirective', component : NgifstructuraldirectiveComponent },
+  { path : 'ngforStdirective', component : NgforstructuraldirectiveComponent },
+  { path : 'Customattributedirective', component : CustomattributecontainerComponent},
   { path : 'home', component : HomeComponent },
   { path : '', redirectTo: 'home', pathMatch: 'full'},
   { path : '**', component : PageNotFoundComponent }

@@ -15,6 +15,13 @@ import { PageFooterComponent } from './core/page-footer/page-footer.component';
 import { EventbindingComponent } from './01componentanddatabinding/eventbinding/eventbinding.component';
 import { TwowaydatabindingComponent } from './01componentanddatabinding/twowaydatabinding/twowaydatabinding.component';
 import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabinding/twowaydatabindingwithoutng-model/twowaydatabindingwithoutng-model.component';
+import { InputDecoratorComponent } from './03ComponetsCommunications/input-decorator/input-decorator.component';
+import { AppChildwithInputComponent } from './03ComponetsCommunications/app-childwith-input/app-childwith-input.component';
+import { ParentComponent } from './03ComponetsCommunications/parent/parent.component';
+import { NgifstructuraldirectiveComponent } from './04Directive/ngifstructuraldirective/ngifstructuraldirective.component';
+import { NgforstructuraldirectiveComponent } from './04Directive/ngforstructuraldirective/ngforstructuraldirective.component';
+import { CustomattributedirectiveDirective } from './04Directive/customattributedirective.directive';
+import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
 
 
 @NgModule({
@@ -30,6 +37,13 @@ import { TwowaydatabindingwithoutngModelComponent } from './01componentanddatabi
     EventbindingComponent,
     TwowaydatabindingComponent,
     TwowaydatabindingwithoutngModelComponent,
+    InputDecoratorComponent,
+    AppChildwithInputComponent,
+    ParentComponent,
+    NgifstructuraldirectiveComponent,
+    NgforstructuraldirectiveComponent,
+    CustomattributedirectiveDirective,
+    CustomattributecontainerComponent,
     EventbindingComponent
   ],
   imports: [
