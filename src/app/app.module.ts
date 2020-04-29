@@ -23,6 +23,7 @@ import { NgforstructuraldirectiveComponent } from './04Directive/ngforstructural
 import { CustomattributedirectiveDirective } from './04Directive/customattributedirective.directive';
 import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +33,7 @@ import { CustomattributecontainerComponent } from './04Directive/customattribute
     HomeComponent,
     PageHeaderComponent,
     PageFooterComponent,
+    twowaydatabinding,
     EventbindingComponent,
     TwowaydatabindingComponent,
     TwowaydatabindingwithoutngModelComponent,
@@ -41,7 +43,8 @@ import { CustomattributecontainerComponent } from './04Directive/customattribute
     NgifstructuraldirectiveComponent,
     NgforstructuraldirectiveComponent,
     CustomattributedirectiveDirective,
-    CustomattributecontainerComponent
+    CustomattributecontainerComponent,
+    EventbindingComponent
   ],
   imports: [
     BrowserModule,
