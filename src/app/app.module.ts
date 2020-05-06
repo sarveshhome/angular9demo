@@ -24,6 +24,7 @@ import { CustomattributedirectiveDirective } from './04Directive/customattribute
 import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
 import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,7 @@ import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.compo
     HomeComponent,
     PageHeaderComponent,
     PageFooterComponent,
+    twowaydatabinding,
     EventbindingComponent,
     TwowaydatabindingComponent,
     TwowaydatabindingwithoutngModelComponent,
@@ -43,7 +45,9 @@ import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.compo
     NgforstructuraldirectiveComponent,
     CustomattributedirectiveDirective,
     CustomattributecontainerComponent,
-    NodemodeComponent
+   ViewEncapsulationNoneMode,
+    NodemodeComponent,
+    EventbindingComponent
   ],
   imports: [
     BrowserModule,
