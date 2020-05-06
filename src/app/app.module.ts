@@ -22,6 +22,7 @@ import { NgifstructuraldirectiveComponent } from './04Directive/ngifstructuraldi
 import { NgforstructuraldirectiveComponent } from './04Directive/ngforstructuraldirective/ngforstructuraldirective.component';
 import { CustomattributedirectiveDirective } from './04Directive/customattributedirective.directive';
 import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
+import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { CustomattributecontainerComponent } from './04Directive/customattribute
     NgifstructuraldirectiveComponent,
     NgforstructuraldirectiveComponent,
     CustomattributedirectiveDirective,
-    CustomattributecontainerComponent
+    CustomattributecontainerComponent,
+    NodemodeComponent
   ],
   imports: [
     BrowserModule,
