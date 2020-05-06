@@ -11,6 +11,7 @@ import { InputDecoratorComponent } from './03ComponetsCommunications/input-decor
 import { NgifstructuraldirectiveComponent } from './04Directive/ngifstructuraldirective/ngifstructuraldirective.component';
 import { NgforstructuraldirectiveComponent } from './04Directive/ngforstructuraldirective/ngforstructuraldirective.component';
 import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
+import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.component';
 const routes: Routes = [
   { path: 'interpolation', component: InterpolationDemoComponent },
   { path : 'propertybinding', component : PropertybindingDemoComponent},
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path : 'ngifStdirective', component : NgifstructuraldirectiveComponent },
   { path : 'ngforStdirective', component : NgforstructuraldirectiveComponent },
   { path : 'Customattributedirective', component : CustomattributecontainerComponent},
+  { path : 'Nonemode', component: NodemodeComponent },
   { path : 'home', component : HomeComponent },
   { path : '', redirectTo: 'home', pathMatch: 'full'},
   { path : '**', component : PageNotFoundComponent }
