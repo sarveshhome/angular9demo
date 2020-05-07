@@ -13,6 +13,7 @@ import { NgforstructuraldirectiveComponent } from './04Directive/ngforstructural
 import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
 import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.component';
 import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/shadow-dom-mode.component';
+import { EmulatedmodeComponent } from './05ViewEncapsulation/emulatedmode/emulatedmode.component';
 const routes: Routes = [
   { path: 'interpolation', component: InterpolationDemoComponent },
   { path : 'propertybinding', component : PropertybindingDemoComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path : 'Customattributedirective', component : CustomattributecontainerComponent},
   { path : 'Nonemode', component: NodemodeComponent },
   { path : 'shadowmode', component: ShadowDomModeComponent},
+  {path  :  'emulatedmode', component: EmulatedmodeComponent},
   { path : 'home', component : HomeComponent },
   { path : '', redirectTo: 'home', pathMatch: 'full'},
   { path : '**', component : PageNotFoundComponent }

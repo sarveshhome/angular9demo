@@ -24,6 +24,7 @@ import { CustomattributedirectiveDirective } from './04Directive/customattribute
 import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
 import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.component';
 import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/shadow-dom-mode.component';
+import { EmulatedmodeComponent } from './05ViewEncapsulation/emulatedmode/emulatedmode.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/sh
     CustomattributedirectiveDirective,
     CustomattributecontainerComponent,
     NodemodeComponent,
-    ShadowDomModeComponent
+    ShadowDomModeComponent,
+    EmulatedmodeComponent
   ],
   imports: [
     BrowserModule,
