@@ -23,6 +23,7 @@ import { NgforstructuraldirectiveComponent } from './04Directive/ngforstructural
 import { CustomattributedirectiveDirective } from './04Directive/customattributedirective.directive';
 import { CustomattributecontainerComponent } from './04Directive/customattributecontainer/customattributecontainer.component';
 import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.component';
+import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/shadow-dom-mode.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.compo
     NgforstructuraldirectiveComponent,
     CustomattributedirectiveDirective,
     CustomattributecontainerComponent,
-    NodemodeComponent
+    NodemodeComponent,
+    ShadowDomModeComponent
   ],
   imports: [
     BrowserModule,
