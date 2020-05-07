@@ -26,8 +26,9 @@ import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.compo
 import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/shadow-dom-mode.component';
 import { EmulatedmodeComponent } from './05ViewEncapsulation/emulatedmode/emulatedmode.component';
 
+
 @NgModule({
-  declarations: [
+  declarations: [ 
     AppComponent,
     InterpolationDemoComponent,
     PropertybindingDemoComponent,
@@ -47,7 +48,7 @@ import { EmulatedmodeComponent } from './05ViewEncapsulation/emulatedmode/emulat
     CustomattributecontainerComponent,
     NodemodeComponent,
     ShadowDomModeComponent,
-    EmulatedmodeComponent
+    EmulatedmodeComponent 
   ],
   imports: [
     BrowserModule,
