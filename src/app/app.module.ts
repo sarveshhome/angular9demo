@@ -25,6 +25,7 @@ import { CustomattributecontainerComponent } from './04Directive/customattribute
 import { NodemodeComponent } from './05ViewEncapsulation/nodemode/nodemode.component';
 import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/shadow-dom-mode.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +35,7 @@ import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/sh
     HomeComponent,
     PageHeaderComponent,
     PageFooterComponent,
+    twowaydatabinding,
     EventbindingComponent,
     TwowaydatabindingComponent,
     TwowaydatabindingwithoutngModelComponent,
@@ -44,8 +46,12 @@ import { ShadowDomModeComponent } from './05ViewEncapsulation/shadow-dom-mode/sh
     NgforstructuraldirectiveComponent,
     CustomattributedirectiveDirective,
     CustomattributecontainerComponent,
+    ShadowModeViewEncapsulation,
     NodemodeComponent,
-    ShadowDomModeComponent
+    ShadowDomModeComponent,
+    ViewEncapsulationNoneMode,
+    NodemodeComponent,
+    EventbindingComponent
   ],
   imports: [
     BrowserModule,

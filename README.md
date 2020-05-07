@@ -1,5 +1,17 @@
 # Angular9demo
 
+git init
+
+git remote add origin https://github.com/sarveshhome/angular9demo.git
+
+`initial commit`              ctrl +Enter
+
+then push to
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
 ## Development server
